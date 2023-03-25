@@ -1,0 +1,56 @@
+/* Con esto le vamos a matar por defalt los márgenes */
+
+*{
+ margin: 0;
+ padding: 0;
+
+}
+
+
+/* p {
+    margin-top: 50px;
+    border:dotted 3px blue; 
+    padding: 30px;
+   
+   } */
+
+/* barra de  menú    */
+a{
+text-decoration: none;
+color:white;
+
+}
+
+li{
+text-align: center;    
+/* redondea los botones */
+border-radius: 30px;
+border:solid 1px lightblue; 
+background-color: aquamarine;
+/* background-color: rgb(255,255,0); */
+
+width: 200px;
+margin:30px; 
+padding:15px;
+box-shadow: 3px 3px black;
+}
+
+p{
+    font-weight: bold;
+    color: green;
+    font-size: 30px;  
+    text-shadow: -9px 9px -9px rgb(255 255 0);
+    letter-spacing: 3px;  
+}
+
+header{
+width: 300px;
+background:linear-gradient(rgb(255,0,255)) ;
+padding:80px;
+}
+
+ul{
+    /* los pone lineales los botones*/
+    display: flex;
+}
+
